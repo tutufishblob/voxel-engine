@@ -1,0 +1,2 @@
+/home/tutu/shaderc/build/glslc/glslc /home/tutu/voxel-engine/voxel-engine/renderer/shaders/basic_shader.vert -o /home/tutu/voxel-engine/voxel-engine/renderer/shaders/basic_shader.vert.spv
+/home/tutu/shaderc/build/glslc/glslc /home/tutu/voxel-engine/voxel-engine/renderer/shaders/basic_shader.frag -o /home/tutu/voxel-engine/voxel-engine/renderer/shaders/basic_shader.frag.spv

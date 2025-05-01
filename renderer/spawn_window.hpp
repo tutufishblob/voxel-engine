@@ -12,6 +12,10 @@ namespace SpawnWindow{
             VoxelWindow(int w, int h, std::string name);
             ~VoxelWindow();
 
+
+            VoxelWindow(const VoxelWindow &) = delete;
+            VoxelWindow &operator=(const VoxelWindow &) = delete;
+
             bool shouldClose(){
                 return glfwWindowShouldClose(window);
             }
